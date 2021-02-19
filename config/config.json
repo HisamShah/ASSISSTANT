@@ -1,0 +1,63 @@
+{
+  "intent_greeting": {
+    "utterances": [
+      "jarvis",
+      "wake up jarvis",
+      "hello jarvis"
+    ],
+    "response": [
+      "Hello Sir, How may i help you?",
+      "Hello Sir, always at your service"
+    ]
+  },
+  "intent_applications": {
+    "utterances": [
+      "open",
+      "launch"
+    ],
+    "applications": {
+      "calculator": "/System/Applications/Calculator.app",
+      "chess": "/System/Applications/Chess.app",
+      "chrome": "/Applications/Google\\ Chrome.app",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com'"
+    },
+    "response": [
+      "Ok sir.",
+      "sure sir."
+    ]
+  },
+  "intent_music": {
+    "utterances": [
+      "play music",
+      "next song",
+      "stop music"
+    ],
+    "response": [
+      "sure sir."
+    ]
+  },
+  "intent_alarm": {
+    "utterances": [
+      "set alarm",
+      "wake me up"
+    ],
+    "response": [
+      "sure sir.",
+      "ok sir",
+      "alarm set for you"
+    ]
+  },
+  "intent_reminder": {
+    "utterances": [
+      "set reminder",
+      "set a reminder",
+      "remind me"
+    ],
+    "response": [
+      "sure sir.",
+      "ok sir",
+      "reminder set for you"
+    ]
+  }
+}
